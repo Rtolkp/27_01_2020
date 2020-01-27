@@ -1,0 +1,30 @@
+.grad{
+	background-color: red;
+	width: 100px;
+	height: 100px;
+	animation-name: grad;
+	animation-duration: 2s;
+	position: absolute;
+}
+@keyframes grad{
+	
+	0%{
+		left: 0px;
+		top:200px;
+	}
+	25%{
+		left: 0px;
+		top: 200px;
+	}
+	50%{
+		left: 0px;
+		top: 200px;
+	}
+	75%{
+		left: 0px;
+         top: 200px;
+	}
+}
+	
+
+	

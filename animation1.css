@@ -1,0 +1,22 @@
+.percentage{
+	background-color: red;
+	width: 00px;
+	height: 300px;
+	animation-name: percentage;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+@keyframes percentage{
+	0%{
+		background-color: yellow;
+	}
+	25%{
+		background-color: black;
+	}
+	50%{
+		background-color: red;
+	}
+	75%{
+		background-color: blue
+	}
+}
